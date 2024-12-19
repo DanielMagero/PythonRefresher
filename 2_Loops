@@ -6,13 +6,14 @@ while x < 5:
   x += 1
 
 
-
+#For loops
 names = ['John', 'Sarah', 'Kesta', 'Duncan']
 
 for x in names:
   print(x)
 
 
+##Nested loops
 names = ['John', 'Sarah', 'Kesta', 'Duncan'], ['Rita', 'Conny']
 
 for x in names:
