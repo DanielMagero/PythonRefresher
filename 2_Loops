@@ -1,0 +1,22 @@
+#while loops
+
+x=0
+while x < 5:
+  print(x)
+  x += 1
+
+
+
+names = ['John', 'Sarah', 'Kesta', 'Duncan']
+
+for x in names:
+  print(x)
+
+
+names = ['John', 'Sarah', 'Kesta', 'Duncan'], ['Rita', 'Conny']
+
+for x in names:
+  print(x)
+  for i in x:
+    print(i)
+
