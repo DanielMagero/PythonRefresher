@@ -1,0 +1,9 @@
+Name
+Age
+Course
+Gabe
+21
+BSWASA
+Rita
+19
+BSIT
