@@ -17,7 +17,8 @@ class Item:
   def calculate_total_price(self):
     return self.price * self.quantity
   
-  def 
+  def apply_discount(self):
+    self.price  = self.price * Item.pay_rate
 
 item1 = Item("Phone", 500000, 5)
 print(item1.calculate_total_price())
