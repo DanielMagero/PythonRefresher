@@ -1,5 +1,8 @@
 ##Giving the datatype to be received
 class Item:
+  ##class atttribute
+  pay_rate  = 0.8 ##pay after 20% discount
+  
   def __init__(self, name : str, price: float, quantity = 0): ##called automatically when the instance is created
     ## Run validations to received arguments
     assert price >= 0, f"Price {price} is not greater than or equal zero!"
